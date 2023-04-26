@@ -1,0 +1,79 @@
+Result Skip Results Iframe
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+  background-image: url(https://i.redd.it/5o5gy7ekf5c71.gif);
+  background-repeat: no-repeat;
+  background-size: 1980px;
+}
+}
+
+
+
+.listing {
+  width: 409px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+  cursor: pointer;
+  text-decoration: none;
+}
+.listing img {
+  --aug-tl1: 0.5rem;
+  --aug-tr1: 0.5rem;
+  --aug-round-tl1: initial;
+  --aug-round-tr1: initial;
+
+  --aug-round-bl1: initial;
+  --aug-bl1: 0.5rem;
+  --aug-scoop-bl2: initial;
+  --aug-bl2: 0.75rem;
+  --aug-bl-inset2: calc(30% + 1rem);
+  --aug-bl-extend2: 2.5rem;
+  
+  margin-bottom: -3.25rem;
+}
+
+.listing img + * {
+  background: rgba(51, 51, 51, 0.418);
+  color: white;
+  text-align: justify;
+  padding-bottom: 0.25rem;
+  --aug-bl1: 0.5rem;
+  --aug-br1: 0.5rem;
+  --aug-round-bl1: initial;
+  --aug-round-br1: initial;
+
+  --aug-round-tr1: initial;
+  --aug-tr1: 0.5rem;
+  --aug-scoop-tr2: initial;
+  --aug-tr2: 0.75rem;
+  --aug-tr-inset2: 63%;
+  --aug-tr-extend2: 2.5rem;
+  padding: 20px;
+  margin: 100px;
+  border-radius: 2px;
+}
+.listing .price {
+  margin: 0.75rem;
+  color: black;
+  background: white;
+  border-radius: 0.25rem;
+  border-top-left-radius: 0;
+  display: inline-block;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  width: 115px;
+  text-align: center;
+}
+.listing .details {
+  margin: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
